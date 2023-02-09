@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Handlee&family=Lato:wght@100;300;400;700&family=Montserrat:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Handlee&family=Lato:wght@100;300;400;700&family=Montserrat:wght@300;400&display=swap");
 
 *,
 html,
@@ -10,15 +10,15 @@ body {
 
 /* Background */
 .background {
-    background: rgb(221, 139, 152);
-    min-height: 100vh;
-  }
+  background: rgb(221, 139, 152);
+  min-height: 100vh;
+}
 
 .nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: .7rem 1rem;
+  padding: 0.7rem 1rem;
 }
 
 .dropbtn {
@@ -27,7 +27,7 @@ body {
   padding: 16px;
   font-size: 16px;
   border: none;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 100;
   cursor: pointer;
 }
@@ -67,9 +67,9 @@ body {
   backdrop-filter: blur(5px);
 }
 
-#name{
-    font-size: 1.7rem;
-    font-weight: 300;
+#name {
+  font-size: 1.7rem;
+  font-weight: 300;
 }
 
 .nav-links {
@@ -77,11 +77,10 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 100;
   cursor: pointer;
 }
-
 
 /*MAIN*/
 main {
@@ -90,13 +89,12 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 100;
   color: white;
   text-align: center;
   padding: 0rem 3rem 6rem 3rem;
 }
-
 
 h1 {
   display: flex;
@@ -105,247 +103,275 @@ h1 {
   font-weight: 100;
   letter-spacing: 3px;
   text-align: center;
-  font-family: 'Abril Fatface', cursive;  
+  font-family: "Abril Fatface", cursive;
   padding-bottom: 1.3rem;
   font-size: clamp(2rem, 10vw, 3.3rem);
 }
 
-h2{
-    font-size: 26pt;
-    padding: 1rem 0rem;
-    letter-spacing: 3px;
+h2 {
+  font-size: 26pt;
+  padding: 1rem 0rem;
+  letter-spacing: 3px;
 }
 
-.role1{
-    padding-bottom: 1rem;
-    color: rgb(18, 77, 97);
-    font-size: 2rem;
-    letter-spacing: 1.4px;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration-thickness: .05px;
-    font-weight: 600;
+.role1 {
+  padding-bottom: 1rem;
+  color: rgb(18, 77, 97);
+  font-size: 2rem;
+  letter-spacing: 1.4px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration-thickness: 0.05px;
+  font-weight: 600;
 }
 
- .experience-info {
+.experience-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Lato', sans-serif;  
+  font-family: "Lato", sans-serif;
   letter-spacing: 3px;
   line-height: 2rem;
   font-size: clamp(0.5rem, 7vw, 1.3rem);
 }
 
 .me-photo {
-   /* width: 100%;*/
-    height: auto;
-    clip-path: square();
+  /* width: 100%;*/
+  height: auto;
+  clip-path: square();
 }
 .scroll {
-    padding-top: 1rem;
-    text-align: center;
-    color: rgb(234, 234, 234);
-    font-weight: 300;
+  padding-top: 1rem;
+  text-align: center;
+  color: rgb(234, 234, 234);
+  font-weight: 300;
 }
-.me-info{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 2rem;
+.me-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 2rem;
 }
-.extra-info{
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 60px;
-    min-width: 95%;
-}
-
-.linkedin{
-    text-decoration: none;
-    color: rgb(233, 233, 233);
-    cursor: pointer;
-    transition: 1s ease-in;
-    font-size: 1.7rem;
-    font-weight: 300;
+.extra-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 60px;
+  min-width: 95%;
 }
 
-.download{
-    border-radius: 25px;
-    padding: 8px 8px;
-    border: transparent;
-    font-family: 'Lato', sans-serif;
-    color: black;
-    font-weight: 300;
-    font-size: 1.7rem;
-    cursor: pointer;
-    transition: 1s ease-in-out;
-}
-
-.download:hover{
-    background-color: rgb(18, 77, 97);
-    color: white;
-}
-.download2{
+.linkedin {
   text-decoration: none;
-  color: black;
+  color: rgb(233, 233, 233);
+  cursor: pointer;
+  transition: 1s ease-in;
+  font-size: 1.7rem;
+  font-weight: 300;
 }
-.download2:hover{
+
+.download {
+  border-radius: 25px;
+  padding: 8px 8px;
+  border: transparent;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-weight: 300;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+}
+
+.download:hover {
+  background-color: rgb(18, 77, 97);
   color: white;
 }
-.linkedin:hover{
+.download2 {
+  text-decoration: none;
+  color: rgb(18, 77, 97);
+}
+.download2:hover {
+  color: white;
+}
+.linkedin:hover {
   color: rgb(18, 77, 97);
 }
 
 /*About Me*/
 
-.about-me{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    min-height: 40vh;
+.about-me {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  min-height: 40vh;
 }
-.title{
-    flex: 1; /* additionally, equal width */
-    padding: 1rem;
-    font-family: 'Abril Fatface', cursive;    
-    font-weight: 600;
-    text-align: center;
+.title {
+  flex: 1; /* additionally, equal width */
+  padding: 1rem;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 600;
+  text-align: center;
 }
-h3{
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 }
-.answers{
-    flex: 2; /* additionally, equal width */
-    width: 200px;
-    max-height: 400px;
-    overflow-y: scroll;
-    overflow: auto;
-    text-align: justify;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    line-height: 1.3rem;
+.answers {
+  flex: 2; /* additionally, equal width */
+  width: 200px;
+  max-height: 400px;
+  overflow-y: scroll;
+  overflow: auto;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 1.3rem;
 }
-
 
 /* Portfolio */
-#grey{
-    background: linear-gradient(to left, rgb(169, 169, 169) 50%, rgb(255, 255, 255) 50%);
+#grey {
+  background: linear-gradient(
+    to left,
+    rgb(169, 169, 169) 50%,
+    rgb(255, 255, 255) 50%
+  );
 }
-.project-container{
-    display: flex;
-    flex-direction: column;
-    min-height: 70vh;
-    justify-content: space-evenly;
+.project-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  justify-content: space-evenly;
 }
-.portfolio-title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0rem 2rem;
-    font-family: 'Abril Fatface', cursive;    
-    font-weight: 600;
+.portfolio-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 600;
 }
 
-.projects{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.individual-project{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    padding: 0rem 1rem;
+.individual-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 0rem 1rem;
 }
-.video{
-    background-image: url('./video/Canon.mov');
+.video {
+  background-image: url("./video/Canon.mov");
   height: 330px;
   width: 600px;
   margin-bottom: 50px;
 }
-.portfolio-p{
-    font-family: 'Lato', sans-serif;
-    font-weight: 100;
+.portfolio-p {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
 }
-.project-links, .project-name{
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    color: black;
+.project-links,
+.project-name {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
-.flip-text{
-    color: white;
-    display: inline-block; 
-    font-size: 26pt;
+.flip-text {
+  color: white;
+  display: inline-block;
+  font-size: 26pt;
 
-    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
-    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 /* Hide Play button + controls on iOS */
 video::-webkit-media-controls {
-    display:none !important;
+  display: none !important;
 }
 
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   background-color: rgb(118, 178, 197);
   min-height: 5vh;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-
-
-
-@media all and (max-width: 500px){
-  .dropbtn, .nav-links, .experience-info, .linkedin{
+@media all and (max-width: 500px) {
+  .dropbtn,
+  .nav-links,
+  .experience-info,
+  .linkedin {
     font-weight: 400;
   }
-  main{
+  .disappear {
+    visibility: hidden;
+  }
+  main {
     padding: 0rem 3rem 9rem 3rem;
   }
-    .left, .flip-text{
-        font-size: 20px;
-    }
-    h3{
-        font-size: 15px;
-    }
-    #name, .linkedin, .download{
-        font-size: 1rem;
-    }
-    .answers{
-        width: 90%;
-        height: 50%;
-        -webkit-overflow-scrolling: touch;
-    }
-    .role1{
-        text-align: center;
-        padding: 1rem;
-        font-size: 1.5rem;
-    }
-    .role, .experience-info{
-        line-height: 1.2rem;
-        padding: 0;
-        text-align: justify;
-        font-size: 14px;
-    }
-    .scroll{
-        font-size: 13px;
-    }
-    .extra-info{
-        bottom: 10px;
-    }
-    .projects{
-        display: flex;
-        flex-direction: column;
-    }
+  .download:hover {
+    color: rgb(18, 77, 97);
+    background-color: white;
+  }
+  .download2:hover {
+    color: rgb(18, 77, 97);
+  }
+  .download2 {
+    color: white;
+  }
+  .linkedin:hover {
+    color: white;
+  }
+  .left,
+  .flip-text {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 15px;
+  }
+  #name,
+  .linkedin {
+    font-size: 1rem;
+    color: rgb(18, 77, 97);
+  }
+  .download {
+    font-size: 1rem;
+    background-color: rgb(18, 77, 97);
+  }
+  .answers {
+    width: 90%;
+    height: 50%;
+    -webkit-overflow-scrolling: touch;
+  }
+  .role1 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .role,
+  .experience-info {
+    line-height: 1.2rem;
+    padding: 0;
+    text-align: justify;
+    font-size: 14px;
+  }
+  .scroll {
+    font-size: 13px;
+  }
+  .extra-info {
+    bottom: 10px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
