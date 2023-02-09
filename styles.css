@@ -309,11 +309,17 @@ footer{
   .dropbtn, .nav-links, .experience-info, .linkedin{
     font-weight: 400;
   }
+  main{
+    padding: 0rem 3rem 9rem 3rem;
+  }
     .left, .flip-text{
         font-size: 20px;
     }
     h3{
         font-size: 15px;
+    }
+    #name, .linkedin, .download{
+        font-size: 1rem;
     }
     .answers{
         width: 90%;
