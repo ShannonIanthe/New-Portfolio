@@ -10,8 +10,15 @@ body {
 
 /* Background */
 .background {
-  background: rgb(221, 139, 152);
+    background: linear-gradient(1deg, #dd8b98, #d6d5dd, #d57a89);
+    background-size: 600% 600%;
+
+    -webkit-animation: background 16s ease infinite;
+    -moz-animation: background 16s ease infinite;
+    animation: background 16s ease infinite;
+  /*background: rgb(221, 139, 152);*/
   min-height: 100vh;
+  z-index: 1;
 }
 
 .nav-container {
@@ -19,6 +26,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0.7rem 1rem;
+  z-index: 0;
 }
 
 .dropbtn {
@@ -69,7 +77,7 @@ body {
 
 #name {
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .nav-links {
@@ -109,9 +117,13 @@ h1 {
 }
 
 h2 {
+font-family: "Montserrat", sans-serif;
   font-size: 26pt;
   padding: 1rem 0rem;
   letter-spacing: 3px;
+}
+.left{
+    color: rgb(18, 77, 97);
 }
 
 .role1 {
@@ -167,7 +179,7 @@ h2 {
   cursor: pointer;
   transition: 1s ease-in;
   font-size: 1.7rem;
-  font-weight: 300;
+  font-weight: 100;
 }
 
 .download {
@@ -176,7 +188,7 @@ h2 {
   border: transparent;
   font-family: "Lato", sans-serif;
   color: black;
-  font-weight: 300;
+  font-weight: 100;
   font-size: 1.7rem;
   cursor: pointer;
   transition: 1s ease-in-out;
@@ -263,11 +275,8 @@ h3 {
   text-align: justify;
   padding: 0rem 1rem;
 }
-.video {
-  background-image: url("./video/Canon.mov");
-  height: 330px;
-  width: 600px;
-  margin-bottom: 50px;
+.vid{
+    border: transparent;
 }
 .portfolio-p {
   font-family: "Lato", sans-serif;
@@ -303,6 +312,22 @@ footer {
   background-color: rgb(118, 178, 197);
   min-height: 5vh;
   font-family: "Lato", sans-serif;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes background {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes background {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
 }
 
 @media all and (max-width: 500px) {
@@ -341,6 +366,8 @@ footer {
   #name,
   .linkedin {
     font-size: 1rem;
+  }
+  .linkedin{
     color: rgb(18, 77, 97);
   }
   .download {
