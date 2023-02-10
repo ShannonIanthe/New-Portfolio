@@ -10,13 +10,7 @@ body {
 
 /* Background */
 .background {
-    background: linear-gradient(1deg, #dd8b98, #d6d5dd, #d57a89);
-    background-size: 600% 600%;
-
-    -webkit-animation: background 16s ease infinite;
-    -moz-animation: background 16s ease infinite;
-    animation: background 16s ease infinite;
-  /*background: rgb(221, 139, 152);*/
+  background: rgb(221, 139, 152);
   min-height: 100vh;
   z-index: 1;
 }
@@ -123,7 +117,11 @@ h2 {
   letter-spacing: 3px;
 }
 .left{
-    color: rgb(18, 77, 97);
+    color: rgb(169, 169, 169);
+}
+.main-animation{
+  animation-play-state: running;
+
 }
 
 .role1 {
@@ -144,13 +142,17 @@ h2 {
   letter-spacing: 3px;
   line-height: 2rem;
   font-size: clamp(0.5rem, 7vw, 1.3rem);
+  text-align: justify;
 }
 
 .me-photo {
   /* width: 100%;*/
   height: auto;
-  clip-path: square();
+  margin: 2rem 0rem 5rem 0rem;
+  border-radius: 5px;
 }
+
+
 .scroll {
   padding-top: 1rem;
   text-align: center;
@@ -162,7 +164,7 @@ h2 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-bottom: 1rem;
+  border-bottom: solid 2px rgb(169, 169, 169);
 }
 .extra-info {
   display: flex;
@@ -223,6 +225,7 @@ h2 {
   font-weight: 600;
   text-align: center;
   background-color: rgb(169, 169, 169);
+  color: white;
 }
 h3 {
   font-family: "Lato", sans-serif;
@@ -230,12 +233,11 @@ h3 {
 }
 .about-paragraph {
   flex: 1; /* additionally, equal width */
-  width: 200px;
-  max-height: 400px;
   text-align: justify;
   font-family: "Lato", sans-serif;
   font-weight: 300;
-  line-height: 1.3rem;
+  line-height: 1rem;
+  text-align: center;
 }
 
 /* Portfolio */
@@ -274,6 +276,7 @@ h3 {
   padding: 0rem 1rem;
 }
 .vid{
+    border-radius: 5px;
     border: transparent;
 }
 .portfolio-p {
@@ -302,6 +305,56 @@ video::-webkit-media-controls {
   display: none !important;
 }
 
+/* Interests and Hobbies*/
+marquee {
+  text-align: center;
+  font-family: "Abril Fatface", cursive;
+  font-size: 16pt;
+  letter-spacing: 3px;
+}
+
+.list-of-likes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  align-items: center;
+  min-height: 20vh;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+  background-color: #d57a89;
+}
+.other-interests{
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  align-items: center;
+  min-height: 20vh;
+  text-align: center;
+  line-height: 3rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+.list-title-p{
+  transform: rotate(90deg);
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.marquee2{
+  -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+  -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.sideways{
+  transform: rotate(-90deg);
+}
+
+/* Footer */
+
 footer {
   display: flex;
   align-items: center;
@@ -328,7 +381,7 @@ footer {
     100%{background-position:91% 0%}
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 650px) {
   .dropbtn,
   .nav-links,
   .experience-info,
@@ -413,8 +466,24 @@ footer {
 min-height: 100vh;
 z-index: 1;
 }
+.me-photo{
+  margin: 2rem 0rem 1rem 0rem;
+}
 .me-info{
   display: flex;
   flex-direction: column;
+}
+.about-paragraph{
+  padding-bottom: 3rem;
+}
+.title{
+  color: pink;
+  background-color: white;
+  padding-bottom: 0;
+}
+.hello-world{
+  visibility: collapse;
+  font-size: 1px;
+  padding: 0;
 }
 }
