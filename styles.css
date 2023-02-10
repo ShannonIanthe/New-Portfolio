@@ -117,7 +117,7 @@ h1 {
 }
 
 h2 {
-font-family: "Montserrat", sans-serif;
+  font-family: "Abril Fatface", cursive;
   font-size: 26pt;
   padding: 1rem 0rem;
   letter-spacing: 3px;
@@ -131,7 +131,7 @@ font-family: "Montserrat", sans-serif;
   color: rgb(18, 77, 97);
   font-size: 2rem;
   letter-spacing: 1.4px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Abril Fatface", cursive;
   text-decoration-thickness: 0.05px;
   font-weight: 600;
 }
@@ -162,7 +162,7 @@ font-family: "Montserrat", sans-serif;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 .extra-info {
   display: flex;
@@ -219,21 +219,19 @@ font-family: "Montserrat", sans-serif;
 }
 .title {
   flex: 1; /* additionally, equal width */
-  padding: 1rem;
   font-family: "Abril Fatface", cursive;
   font-weight: 600;
   text-align: center;
+  background-color: rgb(169, 169, 169);
 }
 h3 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
 }
-.answers {
-  flex: 2; /* additionally, equal width */
+.about-paragraph {
+  flex: 1; /* additionally, equal width */
   width: 200px;
   max-height: 400px;
-  overflow-y: scroll;
-  overflow: auto;
   text-align: justify;
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -241,18 +239,17 @@ h3 {
 }
 
 /* Portfolio */
-#grey {
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#grey, .projects{
   background: linear-gradient(
     to left,
     rgb(169, 169, 169) 50%,
     rgb(255, 255, 255) 50%
   );
-}
-.project-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 70vh;
-  justify-content: space-evenly;
 }
 .portfolio-title {
   display: flex;
@@ -265,10 +262,11 @@ h3 {
 
 .projects {
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  padding: 3rem 0rem;
 }
 .individual-project {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -330,7 +328,7 @@ footer {
     100%{background-position:91% 0%}
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 600px) {
   .dropbtn,
   .nav-links,
   .experience-info,
@@ -400,5 +398,23 @@ footer {
   .projects {
     display: flex;
     flex-direction: column;
-  }
+}
+#greay, .projects{
+  background: none;
+}
+.projects{
+  background: linear-gradient(1deg, #dd8b98, #d6d5dd, #d57a89);
+  background-size: 600% 600%;
+
+  -webkit-animation: background 16s ease infinite;
+  -moz-animation: background 16s ease infinite;
+  animation: background 16s ease infinite;
+/*background: rgb(221, 139, 152);*/
+min-height: 100vh;
+z-index: 1;
+}
+.me-info{
+  display: flex;
+  flex-direction: column;
+}
 }
