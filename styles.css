@@ -116,12 +116,11 @@ h2 {
   padding: 1rem 0rem;
   letter-spacing: 3px;
 }
-.left{
-    color: rgb(169, 169, 169);
+.left {
+  color:  rgb(18, 77, 97);
 }
-.main-animation{
+.main-animation {
   animation-play-state: running;
-
 }
 
 .role1 {
@@ -151,7 +150,6 @@ h2 {
   margin: 2rem 0rem 5rem 0rem;
   border-radius: 5px;
 }
-
 
 .scroll {
   padding-top: 1rem;
@@ -246,7 +244,9 @@ h3 {
   flex-direction: column;
   justify-content: space-evenly;
 }
-#grey, .projects{
+
+#grey,
+.projects {
   background: linear-gradient(
     to left,
     rgb(169, 169, 169) 50%,
@@ -275,9 +275,9 @@ h3 {
   text-align: justify;
   padding: 0rem 1rem;
 }
-.vid{
-    border-radius: 5px;
-    border: transparent;
+.vid {
+  border-radius: 5px;
+  border: transparent;
 }
 .portfolio-p {
   font-family: "Lato", sans-serif;
@@ -290,7 +290,7 @@ h3 {
   color: black;
 }
 .flip-text {
-  color: white;
+  color:  rgb(18, 77, 97);
   display: inline-block;
   font-size: 26pt;
 
@@ -312,8 +312,11 @@ marquee {
   font-size: 16pt;
   letter-spacing: 3px;
 }
+.list-container{
+  background:rgb(18, 77, 97);
+}
 
-.list-of-likes{
+.list-of-likes {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -324,33 +327,15 @@ marquee {
   line-height: 3rem;
   font-weight: 300;
   font-size: 1.4rem;
-  background-color: #d57a89;
-}
-.other-interests{
-  display: flex;
-  justify-content: space-between;
-  font-family: "Lato", sans-serif;
-  align-items: center;
-  min-height: 20vh;
-  text-align: center;
-  line-height: 3rem;
-  font-weight: 300;
-  font-size: 1.4rem;
-}
-.list-title-p{
-  transform: rotate(90deg);
-  font-size: 1.7rem;
-  font-weight: 400;
 }
 
-.marquee2{
+
+
+.marquee2 {
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
   -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
   -o-transform: matrix(-1, 0, 0, 1, 0, 0);
   transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-.sideways{
-  transform: rotate(-90deg);
 }
 
 /* Footer */
@@ -366,19 +351,37 @@ footer {
 }
 
 @-webkit-keyframes background {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
+  0% {
+    background-position: 91% 0%;
+  }
+  50% {
+    background-position: 10% 100%;
+  }
+  100% {
+    background-position: 91% 0%;
+  }
 }
 @-moz-keyframes background {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
+  0% {
+    background-position: 91% 0%;
+  }
+  50% {
+    background-position: 10% 100%;
+  }
+  100% {
+    background-position: 91% 0%;
+  }
 }
 @keyframes background {
-    0%{background-position:91% 0%}
-    50%{background-position:10% 100%}
-    100%{background-position:91% 0%}
+  0% {
+    background-position: 91% 0%;
+  }
+  50% {
+    background-position: 10% 100%;
+  }
+  100% {
+    background-position: 91% 0%;
+  }
 }
 
 @media all and (max-width: 650px) {
@@ -410,6 +413,7 @@ footer {
   .left,
   .flip-text {
     font-size: 20px;
+    color: #d57a89;
   }
   h3 {
     font-size: 15px;
@@ -417,14 +421,16 @@ footer {
   #name,
   .linkedin {
     font-size: 1rem;
+    font-weight: 300;
   }
-  .linkedin{
+  .linkedin {
     color: rgb(18, 77, 97);
   }
   .download {
     font-size: 1rem;
     background-color: rgb(18, 77, 97);
   }
+  
   .answers {
     width: 90%;
     height: 50%;
@@ -451,39 +457,37 @@ footer {
   .projects {
     display: flex;
     flex-direction: column;
-}
-#greay, .projects{
-  background: none;
-}
-.projects{
-  background: linear-gradient(1deg, #dd8b98, #d6d5dd, #d57a89);
-  background-size: 600% 600%;
-
-  -webkit-animation: background 16s ease infinite;
-  -moz-animation: background 16s ease infinite;
-  animation: background 16s ease infinite;
-/*background: rgb(221, 139, 152);*/
-min-height: 100vh;
-z-index: 1;
-}
-.me-photo{
-  margin: 2rem 0rem 1rem 0rem;
-}
-.me-info{
-  display: flex;
-  flex-direction: column;
-}
-.about-paragraph{
-  padding-bottom: 3rem;
-}
-.title{
-  color: pink;
-  background-color: white;
-  padding-bottom: 0;
-}
-.hello-world{
-  visibility: collapse;
-  font-size: 1px;
-  padding: 0;
-}
+  }
+  #grey,
+  .projects {
+    background: 
+      rgb(255, 255, 255);
+  }
+  .projects {
+    background:  rgb(18, 77, 97);
+    min-height: 100vh;
+    z-index: 1;
+  }
+  .me-photo {
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .me-info {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: transparent;
+  }
+  .about-paragraph {
+    padding-bottom: 3rem;
+  }
+  .title {
+    color: pink;
+    background-color: white;
+    padding-bottom: 0;
+  }
+  .hello-world {
+    visibility: collapse;
+    font-size: 1px;
+    padding: 0;
+  }
 }
