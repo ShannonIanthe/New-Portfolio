@@ -33,8 +33,8 @@
         <div class="main-info">
           <div class="main-animation">
             <p class="role1">
-              UX | UI <br />
-              Web Developer
+              Front End <br />
+              Developer
             </p>
           </div>
           <p class="experience-info">
@@ -57,7 +57,7 @@
           </div>
           <div>
             <button class="download">
-              <a class="download2" href="./images/Canonical.pdf" target="_blank"
+              <a class="download2" href="./images/ShannonCV.pdf" target="_blank"
                 >CV</a
               >
             </button>
@@ -67,7 +67,7 @@
     </div>
 
     <!--Portfolio -->
-    <div class="project-container">
+    <div id="projects" class="project-container">
       <div id="grey">
         <div id="portfolio" class="portfolio-title">
           <h2 class="left">Portfolio</h2>
@@ -76,9 +76,11 @@
       </div>
 
       <div class="projects">
+        <!--Base Apparel Project 1-->
         <div class="individual-project" id="project-1">
-          <a ref="https://base-apparel-less-project.vercel.app/" target="_blank"
-            ><img alt="wedding website photo" class="project-img" src="./images/baseApparel.png" style="width: 250px"/></a>
+          <a href="https://base-apparel-less-project.vercel.app/" target="_blank"
+          ><img alt="base apparel website photo" class="project-img" src="./images/baseApparel.png" style="width: 250px"/>
+        </a>
           <a
             class="project-name"
             href="https://base-apparel-less-project.vercel.app/"
@@ -89,21 +91,23 @@
             class="project-links"
             href="https://github.com/ShannonIanthe/Base-Apparel--Less-Project"
             target="_blank"
-            >GitHub</a
+            >Source Code</a
           >
           <a
             class="project-links"
             ref="https://base-apparel-less-project.vercel.app/"
             target="_blank"
             >Link</a
-          >
+          ><br>
+          <p class="portfolio-p">Tech Stack: HTML, CSS, & LESS Preprocessor</p>
           <p class="portfolio-p">Base Apparel coming soon page</p>
         </div>
-
+      
+        <!-- Wedding Website-->
         <div class="individual-project" id="project-2">
-          <a ref="https://base-apparel-less-project.vercel.app/" target="_blank"
-            ><img alt="wedding website photo" class="project-img" src="./images/wedding.png" style="width: 250px"/>
-          </a>
+          <a href="https://oliviaymarcos.netlify.app/" target="_blank"
+          ><img alt="wedding website photo" class="project-img" src="./images/wedding.png" style="width: 250px"/>
+        </a>
           <a
             class="project-name"
             href="https://oliviaymarcos.netlify.app/"
@@ -114,17 +118,22 @@
             class="project-links"
             href="https://github.com/ShannonIanthe/Wedding_Website"
             target="_blank"
-            >GitHub</a
+            >Source Code</a
           >
           <a
             class="project-links"
             href="https://oliviaymarcos.netlify.app/"
             target="_blank"
             >Link</a
-          >
-          <p class="portfolio-p"></p>
+          ><br>
+          <p class="portfolio-p">UX / UI Design</p>
+            <p class="portfolio-p">Mobile Responsiveness</p>
+           <!--<p class="portfolio-p">Submit Form, sending name and number of guests to client's email</p>--> 
+            <p class="portfolio-p">Accordion with Arrival Details</p>
+            <p class="portfolio-p">Image animation</p>
         </div>
 
+        <!--Client Website-->
         <div class="individual-project" id="project-3">
           <a href="https://belen-dominguez.vercel.app/" target="_blank"
             ><img alt="wedding website photo" class="project-img" src="./images/therapypage.png" style="width: 250px"/>
@@ -139,14 +148,14 @@
             class="project-links"
             href="https://github.com/ShannonIanthe/Belen_Website_Therapy"
             target="_blank"
-            >GitHub</a
+            >Source Code</a
           >
           <a
             class="project-links"
             href="https://belen-dominguez.vercel.app/"
             target="_blank"
             >Link</a
-          >
+          ><br>
           <p class="portfolio-p">
             Tech Stack: HTML, CSS, Reactjs, GSAP UX / UI Design Desktop & Mobile
             Responsiveness Navbar Animation
@@ -157,11 +166,13 @@
           <a href=""
             ><img alt="sunnyside agency picture" class="project-img" src="./images/sunnyside.png" style="width: 250px"></a>
           <a class="project-name">Sunny Side Agency</a>
-          <a class="project-links" href="https://github.com/ShannonIanthe/SunnySide-Agency">GitHub</a>
-          <a class="project-links" href="https://sunny-side-agency-rho.vercel.app/">Link</a>
+          <a class="project-links" href="https://github.com/ShannonIanthe/SunnySide-Agency">Source Code</a>
+          <a class="project-links" href="https://sunny-side-agency-rho.vercel.app/">Link</a><br>
           <p class="portfolio-p">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
-            sapiente necessitatibus veniam! Commodi, numquam architecto?
+            Tech Stack: HTML, SASS (SCSS), JS</p>
+<p class="portfolio-p">JS Mobile Navigation Toggle Menu</p>
+<p class="portfolio-p">Desktop/ Mobile Responsiveness</p>
+<p class="portfolio-p">SASS Preprocessor</p>
           </p>
         </div>
       </div>
@@ -191,7 +202,7 @@
     </div>
     <!-- Interests and Hobbies-->
     <marquee behavior="scroll" direction="left" scrollamount="12">Check out my tech stack...</marquee>
-    <div class="list-container">
+    <div id="techstack" class="list-container">
       <div class="tech-logo">
         <div class="tech-gap">
         <img class="tech-logos" alt="html logo" src="./images/html-5.png" />
@@ -213,7 +224,7 @@
 
 
     <div>
-      <marquee class="marquee2" behavior="scroll" direction="left" scrollamount="12" >My Other Interests are ...</marquee>
+      <marquee class="marquee2" behavior="scroll" direction="left" scrollamount="12" >Check ME out ...</marquee>
     </div>
     
     <script type="text/javascript" src="script.js"></script>

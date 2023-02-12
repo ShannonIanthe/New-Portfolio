@@ -257,7 +257,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 2rem;
+  padding: 0rem 2rem; min(50px, 5%)max(MINIMUM, min(PREFERRED, MAXIMUM))
   font-family: "Abril Fatface", cursive;
   font-weight: 600;
 }
@@ -330,8 +330,8 @@ marquee {
 
 /* Tech Logos */
 .tech-logos{
-  height: 80px;
-  width: 99px;
+  height: 90px;
+  width: 105px;
 }
 
 .marquee2 {
