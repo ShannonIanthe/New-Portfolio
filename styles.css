@@ -313,7 +313,7 @@ marquee {
   letter-spacing: 3px;
 }
 .list-container{
-  background:rgb(18, 77, 97);
+  background:rgb(221, 139, 152);
 }
 
 .list-of-likes {
@@ -338,8 +338,13 @@ marquee {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-/* Footer */
+/* Tech Logos */
+.tech-logos{
+  height: 80px;
+  width: 100px;
+}
 
+/* Footer */
 footer {
   display: flex;
   align-items: center;
