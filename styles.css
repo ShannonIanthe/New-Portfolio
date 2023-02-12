@@ -313,23 +313,26 @@ marquee {
   letter-spacing: 3px;
 }
 .list-container{
+  text-align: center;
+  min-height: 20vh;
   background:rgb(221, 139, 152);
 }
-
-.list-of-likes {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Lato", sans-serif;
-  align-items: center;
-  min-height: 20vh;
-  text-align: center;
-  line-height: 3rem;
-  font-weight: 300;
-  font-size: 1.4rem;
+.tech-logo {
+ padding-top: 3rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.tech-logos{
+  padding: .8rem;
 }
 
 
+/* Tech Logos */
+.tech-logos{
+  height: 80px;
+  width: 99px;
+}
 
 .marquee2 {
   -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -338,11 +341,6 @@ marquee {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-/* Tech Logos */
-.tech-logos{
-  height: 80px;
-  width: 100px;
-}
 
 /* Footer */
 footer {
@@ -495,4 +493,12 @@ footer {
     font-size: 1px;
     padding: 0;
   }
+  .tech-logo{
+    display: flex;
+    flex-direction: column;
+  }
+  .tech-logos {
+    height: 80px;
+    width: 90px;
+}
 }
