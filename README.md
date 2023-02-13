@@ -1,5 +1,5 @@
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT-->
 <br />
 <div align="center">
   <a href="https://shannon-mettry.vercel.app/">
