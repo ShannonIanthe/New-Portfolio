@@ -3,7 +3,6 @@
 <br />
 <div align="center">
   <a href="https://shannon-mettry.vercel.app/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Shannon Front End Web Developer Portfolio</h3>
@@ -16,32 +15,6 @@
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
 
 
@@ -63,59 +36,36 @@ Front End Developer Portfolio Website
 
 UX / UI Design:
 * Original Design
-* Aesthetic: modern, simple, three colors
+* Aesthetic: modern, simple, four colors
+- ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png) `#FFFFFF`
+- ![#124D61](https://placehold.co/15x15/124D61/124D61.png) `#124D61`
+- ![#d57a89](https://placehold.co/15x15/d57a89/d57a89.png) `#d57a89`
+- ![#A9A9A9](https://placehold.co/15x15/A9A9A9/A9A9A9.png) `#A9A9A9`
 * Simple fonts with different weights for Desktop and mobile version
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Font-Family from Google Fonts: 
+* "Abril Fatface", cursive;
+* "Lato", sans-serif
 
 
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * HTML
 * CSS
+* Host: Vercel
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Linkedin: <a href="https://www.linkedin.com/in/shannon-mettry/">Shannon Mettry</a>
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+<a href="https://github.com/ShannonIanthe/Portfolio"> Source Code </a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
+<a href="https://shannon-mettry.vercel.app/">Website Link</a>
 
 
 
