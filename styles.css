@@ -236,6 +236,7 @@ h3 {
   font-weight: 300;
   line-height: 1rem;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 /* Portfolio */
@@ -257,7 +258,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0rem 2rem; min(50px, 5%)max(MINIMUM, min(PREFERRED, MAXIMUM))
+  padding: 0rem 2rem; 
   font-family: "Abril Fatface", cursive;
   font-weight: 600;
 }
@@ -275,11 +276,16 @@ h3 {
   text-align: justify;
   padding: 0rem 1rem;
 }
-.vid {
-  border-radius: 5px;
-  border: transparent;
+.project-img{
+  border: 5px solid #d57a89;
+  border-radius: 3px;
+  transition: all .2s ease-in-out; 
+}
+.project-img:hover{
+  transform: scale(1.1); 
 }
 .portfolio-p {
+  text-align: center;
   font-family: "Lato", sans-serif;
   font-weight: 100;
 }
@@ -288,6 +294,10 @@ h3 {
   text-decoration: none;
   font-family: "Lato", sans-serif;
   color: black;
+}
+.project-name:hover,
+.project-links:hover{
+  color: rgb(18, 77, 97);
 }
 .flip-text {
   color:  rgb(18, 77, 97);
@@ -346,11 +356,25 @@ marquee {
 footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(118, 178, 197);
-  min-height: 5vh;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  background-color: rgb(18, 77, 97);
+  min-height: 10vh;
   font-family: "Lato", sans-serif;
+}
+.linkedin-logo,
+.email-logo{
+  transition: all .2s ease-in-out;
+}
+.linkedin-logo:hover, 
+.email-logo:hover{
+  transform: scale(1.3); 
+}
+
+.footer-p{
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: white;
 }
 
 @-webkit-keyframes background {
@@ -457,6 +481,7 @@ footer {
   .extra-info {
     bottom: 10px;
   }
+  /*Individual Project*/
   .projects {
     display: flex;
     flex-direction: column;
@@ -471,6 +496,26 @@ footer {
     min-height: 100vh;
     z-index: 1;
   }
+  .individual-project{
+    padding: 2rem 0rem;
+  }
+  .portfolio-p {
+    font-weight: 300;
+    color: white;
+  }
+  .project-img{
+    border: 5px solid #b5b5b5;
+    border-radius: 3px;
+  }
+  .project-name,
+  .project-links{
+    transition: 1s ease-in-out;
+  }
+  .project-name:hover,
+.project-links:hover{
+  color: white;
+}
+  /*About Me*/
   .me-photo {
     margin: 2rem 0rem 1rem 0rem;
   }
@@ -481,7 +526,8 @@ footer {
     border: transparent;
   }
   .about-paragraph {
-    padding-bottom: 3rem;
+    padding: 0rem 1.3rem 4rem 1.3rem;
+    padding-bottom: 3rem 1rem;
   }
   .title {
     color: pink;
