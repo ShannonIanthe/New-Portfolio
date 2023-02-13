@@ -47,8 +47,17 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<h3>Desktop View</h3>
 
 ![Screen Shot 2023-02-13 at 6 47 20 AM](https://user-images.githubusercontent.com/61018008/218410335-1bbed8f6-26ab-453c-bc76-0f290d0a8af4.png)
+![Screen Shot 2023-02-13 at 12 37 32 PM](https://user-images.githubusercontent.com/61018008/218448241-d21ad0fa-c2aa-492f-8436-369d57acf95a.png)
+![Screen Shot 2023-02-13 at 12 37 42 PM](https://user-images.githubusercontent.com/61018008/218448257-1d51d03c-7ed2-46da-81a0-41e68f03b3df.png)
+
+<h3>Mobile View</h3>
+
+![Screen Shot 2023-02-13 at 12 40 22 PM](https://user-images.githubusercontent.com/61018008/218448969-6c0d0236-7a04-4ef7-9190-96c5a6960196.png)
+![Screen Shot 2023-02-13 at 12 40 35 PM](https://user-images.githubusercontent.com/61018008/218448986-562ade3c-016f-48e8-84b7-848d54e350a4.png)
+
 
 Front End Developer Portfolio Website
 
