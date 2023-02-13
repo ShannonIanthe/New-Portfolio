@@ -48,9 +48,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Screen Shot 2023-02-13 at 6 47 20 AM](https://user-images.githubusercontent.com/61018008/218410335-1bbed8f6-26ab-453c-bc76-0f290d0a8af4.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+Front End Developer Portfolio Website
+
+UX / UI Design:
+* Original Design
+* Aesthetic: modern, simple, three colors
+* Simple fonts with different weights for Desktop and mobile version
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
