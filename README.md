@@ -28,6 +28,7 @@
 
 <h3>Mobile View</h3>
 
+![Screen Shot 2023-02-13 at 1 04 31 PM](https://user-images.githubusercontent.com/61018008/218453238-8278c649-cf03-4cb1-9392-122c5d7a81a8.png)
 ![Screen Shot 2023-02-13 at 12 40 22 PM](https://user-images.githubusercontent.com/61018008/218448969-6c0d0236-7a04-4ef7-9190-96c5a6960196.png)
 ![Screen Shot 2023-02-13 at 12 40 35 PM](https://user-images.githubusercontent.com/61018008/218448986-562ade3c-016f-48e8-84b7-848d54e350a4.png)
 
